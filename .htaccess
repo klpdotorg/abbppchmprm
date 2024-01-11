@@ -1,0 +1,20 @@
+RewriteEngine on
+
+RewriteRule ^register$ /abbppchmprm/api/register.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^login$ /abbppchmprm/api/login.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^txabbprmgameplay$ /abbppchmprm/api/txabbprmgameplay.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^txabbprmgameplaydetail$ /abbppchmprm/api/txabbprmgameplaydetail.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^txabbprmekstepevents$ /abbppchmprm/api/txabbprmekstepevents.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^getavatarpic$ /abbppchmprm/api/getavatarpic.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^updateavatarpic$ /abbppchmprm/api/updateavatarpic.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^getaccesstoken$ /abbppchmprm/api/getaccesstoken.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^getchild$ /abbppchmprm/api/getchild.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^updateprofile$ /abbppchmprm/api/updateprofile.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^uploadpicfile$ /abbppchmprm/api/uploadpicfile.php?friendlyurl=$1&%{QUERY_STRING}
+
+RewriteRule ^txabbchmgameplay$ /abbppchmprm/api/txabbchmgameplay.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^txabbchmgameplaydetail$ /abbppchmprm/api/txabbchmgameplaydetail.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^txabbchmwalletscore$ /abbppchmprm/api/txabbchmwalletscore.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^rxabbchmgetwalletscore$ /abbppchmprm/api/rxabbchmgetwalletscore.php?friendlyurl=$1&%{QUERY_STRING}
+RewriteRule ^rxabbchmgetgamemasterdata$ /abbppchmprm/api/rxabbchmgetgamemasterdata.php?friendlyurl=$1&%{QUERY_STRING}
+
